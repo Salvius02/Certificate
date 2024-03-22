@@ -1,0 +1,73 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "4c441c9d-79d9-4c77-9c53-2966a05001b1:string:636b6a8b30353009f21b9333-5",
+    "name": "b077f293-e39d-4ef7-b2da-7c9020c3581d:string:Engineering Economy & Corporate Finance",
+    "recipient": {
+      "name": "5831a5d5-7c14-4249-a38b-0134d787c1ff:string:GAN CHI KIAT",
+      "nameLine1": "aa7f5c53-c0bf-4707-b6a5-bc64c4cc17ae:string:GAN CHI KIAT",
+      "email": "0c586163-5e15-4d2d-abde-f71bdb165f34:string:GANCHIKIAT@GMAIL.COM",
+      "idType": "bb3b7977-19ac-45f6-9853-9800edb95344:string:SO"
+    },
+    "issuedOn": "d80afea6-7cf3-4d74-812a-f1cdf396ce86:string:2022-11-04T00:00:00+08:00",
+    "issuers": [
+      {
+        "id": "b52959b4-8657-4e80-945e-2453bb656f59:string:did:ethr:0xb444a0ac5753a2684099c934bf4119b0bd8e35d3",
+        "issuerName": "3f1b10f1-0f8f-40e7-99e9-4432f3eed5b6:string:PaCE@NTU",
+        "name": "d1eca921-75f9-4020-9b81-f40ce4665db0:string:Nanyang Technological University",
+        "revocation": {
+          "type": "7f903136-dfc3-4f4b-8716-e516f6000f01:string:REVOCATION_STORE",
+          "location": "b5e19576-5d03-4aa9-a840-f86b5edb2d32:string:0x6bf2602b25752c4e3785951e7b95196c1d3ab29d"
+        },
+        "identityProof": {
+          "type": "11bd5a3e-e25c-4fd9-9a97-7eda58b27f42:string:DNS-DID",
+          "key": "db3112d1-a823-43ce-a7dc-6917a6f38917:string:did:ethr:0xb444a0ac5753a2684099c934bf4119b0bd8e35d3#controller",
+          "location": "512be84e-1981-4bce-ad14-87d48f479451:string:ntu.edu.sg"
+        }
+      }
+    ],
+    "additionalData": {
+      "certSignatories": [
+        {
+          "name": "31084f44-4a22-4fe3-9e2e-b0b6f81b069b:string:Neo Wei Ting",
+          "email": "284cd191-fa8f-43d7-9af9-d293bfa1514a:string:weiting.neo@ntu.edu.sg",
+          "signature": "3d6f1595-8e4a-4667-8aba-4bfd89ef6fa6:string:data:image/png;base64,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"
+        }
+      ],
+      "extra": {
+        "certSignatory2": "3e612ce0-5c25-4247-ba5f-178d04d9741b:string:Associate Prof Shirley SL Lim",
+        "logo1": "2623f383-458a-4f25-bc06-a9df7027a9ae:string:NTU",
+        "freeText1": "9ccad2c5-d16f-42bd-ae01-de75b23303c8:string:has successfully completed the e-Learning Course",
+        "certDateFrom": "c6ed0024-0abf-4324-8558-ee31291b0705:string:4 November 2022",
+        "certDateTo": "17e4b9bd-0c54-4e72-ab97-4df2eb19a6b9:string:4 November 2022",
+        "courseTitle1": "5bc975db-dab2-465f-b207-45d111560c8f:string:Engineering Economy & Corporate Finance"
+      }
+    },
+    "$template": {
+      "name": "e6d12f30-f7e7-4318-be42-f98fcd6b5599:string:NTU-2020-NIE-PACE-1",
+      "type": "79f083ea-ad2a-4a50-9a27-fc4c1bbf6bf0:string:EMBEDDED_RENDERER",
+      "url": "581b2399-4eaa-442a-8551-b5fdbbb2ffcf:string:https://render.ntu.edu.sg"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "7e0333caca069a35d4f517908a595674051ee54dd6e3b404ffd286471d00a3b9",
+    "proof": [
+      "921d5d9de33b657ddaced87cc191d0b7eabd05c30721b6cff9f824a0a9dd8cab",
+      "c580719f45071cb8d0ddc195ccf174e7f430a7200a492206a2590884e395e52c",
+      "bcb2934867d64483aad08c0119475c6c9ee8c58187c9650127475b59273f0b7f",
+      "ab315f55d21adda8af8ce7a9e28764319961fbc9f75b1d78dfffdcbcac22cc96"
+    ],
+    "merkleRoot": "9fca64469093d86e7c6bf24ea6f7899ddbf3579d188e680a991472116c0236b2"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2022-11-10T03:42:19.354Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0xb444a0ac5753a2684099c934bf4119b0bd8e35d3#controller",
+      "signature": "0x735259da7207219010f29fbcb65d67f480131a2cbbf16d4d993743c803e4aca4516dab5787a30b0f835a5d72fadf61331ed518322dee4333cf483e11c86280fc1c"
+    }
+  ]
+}
